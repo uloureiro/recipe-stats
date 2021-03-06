@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  recipe-stats:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: recipe-stats
+    volumes:
+      - .:/go/src/recipe-stats/data
+    tty: true
+    stdin_open: true

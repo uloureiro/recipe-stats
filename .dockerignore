@@ -1,0 +1,8 @@
+/scripts
+.gitignore
+README.md
+REQUIREMENTS.md
+docker-compose.yml
+Dockerfile
+Makefile
+*.json
